@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Kotak">
+        <div class="Header">
+            <h1>My To Do List <img src="assets/ceklist.png" alt="Icon"></h1>
+            
+            <div class="input">
+                <input type="text" id="input-catatan" placeholder="Masukkan to do list">
+                <button id="tombol">tambah</button>
+            </div>
+            
+            <!-- Container untuk ketiga badge statistik -->
+            <div class="box">
+                <div id="total-tugas" class="box">Total Tugas: 0</div>
+                <div id="tugas-selesai" class="box">Selesai: 0</div>
+                <div id="tugas-belum" class="box">Belum Selesai: 0</div>
+            </div>
+            
+            <ul id="listKotak">
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
